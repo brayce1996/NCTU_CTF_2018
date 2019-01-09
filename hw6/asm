@@ -273,7 +273,7 @@ Disassembly of section .text:
  bbe:	8b 45 e4             	mov    eax,DWORD PTR [rbp-0x1c]
  bc1:	48 98                	cdqe   
  bc3:	48 89 c7             	mov    rdi,rax
- bc6:	e8 bd fc ff ff       	call   888 <_init+0x68>
+ bc6:	e8 bd fc ff ff       	call   888 <_init+0x68>         # malloc(size)
  bcb:	48 89 03             	mov    QWORD PTR [rbx],rax
  bce:	48 8d 3d c0 03 00 00 	lea    rdi,[rip+0x3c0]        # f95 <_IO_stdin_used+0xc5>
  bd5:	b8 00 00 00 00       	mov    eax,0x0
